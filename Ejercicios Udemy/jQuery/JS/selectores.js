@@ -24,3 +24,9 @@ let parrafos = $("p");
 //Selector de Atributo
 
 $("[name='brrPatapim']").css("font-size","20px");
+
+$('#caja').find('.resaltado').css('color','green'); //Gracias al .find podemos encontrar elementos dentro de otros, siendo mas especificos evitando tomar otros que no queremos modificar
+
+let parent = $('#caja').parent().parent().find('#rojo'); //El parent nos permite seleccionar elementos "padre" o que están por encima del actual
+
+console.log(parent);
