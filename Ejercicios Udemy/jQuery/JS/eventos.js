@@ -59,7 +59,6 @@ input.blur(function(){
 //Mouse move
 
 $(document).mousemove(function () { 
-    // values: e.clientX, e.clientY, e.pageX, e.pageY
     let sigueme = $('#sigueme');
     sigueme.css("left",event.clientX);
     sigueme.css("top",event.clientY);
